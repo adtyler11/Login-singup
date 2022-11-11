@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "KGBSketch";
+src: url("KGBlankSpaceSketch.ttf");
+}
+.mainHeader{
+    text-align: center;
+   font-family: KGBSketch;
+}
