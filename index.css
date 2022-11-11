@@ -2,7 +2,16 @@
     font-family: "KGBSketch";
 src: url("KGBlankSpaceSketch.ttf");
 }
-.mainHeader{
+body{
+    background-color: bisque;
+}
+#mainHeader{
+    color: black;
+    text-shadow: 8px white;
     text-align: center;
    font-family: KGBSketch;
+   background-image: url(corporate-catering-buffet-table.jpg);
+   position: relative;
+   bottom: 25px;
+   height: fit-content;
 }
