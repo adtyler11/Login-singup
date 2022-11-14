@@ -50,8 +50,9 @@ function register() {
       }
       else{
         // add new user to users array
-        users.push(newUser);
+        // users.push(newUser);
         alert('User added');
+        login();
       }
     }
 
