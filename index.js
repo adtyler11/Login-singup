@@ -60,3 +60,6 @@ function register() {
 users.push({registerUser, registerPassword});
 }
 
+function feature(){
+    alert('please login to use this feature!!')
+}
