@@ -6,9 +6,10 @@ src: url("KGBlankSpaceSketch.ttf");
 }
 body{
     background-repeat: no-repeat;
+    background-size: 300%;
     background-color: bisque; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('corporate-catering-buffet-table.jpg')
+        url('shutterstock_1383065213.jpg')
 }
 #mainHeader{
     color: black;
