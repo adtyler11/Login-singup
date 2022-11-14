@@ -87,6 +87,51 @@ body{
  font-family: cursive;
 }
 
+.rand{
+    text-align: center;
+    color: white;
+    width: 100px;
+}
+
+#banner{
+
+}
+
+#bannerList{
+    list-style: none;
+    text-align: center;
+
+}
+
+#bannerList li{
+    display: block;
+    float: left;
+}
+
+#randheader{
+    color: white;
+    text-align: center;
+    font-family: cursive
+}
+
+#randlist{
+    list-style: none;
+    text-align: center;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+
+}
+
+
+
+#randlist li{
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 50px;
+}
+
 /* signup form specific css */
 #signup{
     list-style: none;
