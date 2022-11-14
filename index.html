@@ -9,7 +9,10 @@
     <script src="index.js"></script>
 <body>
 
+
+
     <header id="mainHeader">  
+        <a onclick="feature()"><img id="hamburger" src="profile-people-svgrepo-com.svg" alt=""></a>
         <h1 class="mainHeader">CSET 2022 Potluck login</h1>
         <h5>Welcome to the official CSET 2022 Potluck login page!!</h5>
         <h5>Please Login Below!!</h5>  
@@ -22,10 +25,7 @@
 
     </form>
    </div>
-   <p>Not a member? Sign up <a href="Signup.html">here</a></p>
-
-        <h5>Please Login Below!!</h5>
- 
+   <p><i>Not a member? Sign up <a type="button" href="Signup.html">here</a></i></p>
     </header>
 
 <section>
@@ -41,55 +41,72 @@
     <p id="potluckHype">Feel free to bring any <a href="https://en.wikipedia.org/wiki/Food">food</a>/<a href="https://en.wikipedia.org/wiki/Non-alcoholic_drink">non-alcholoic beverage you like!</a> It is up to us as the CSET 2022 students to make sure the "joke" Potluck is great! It is our goal to get as many people as possible to sign up. We would love to see a huge diversity of foods from any culture or country. Many of us did not have a computer background going into the CSET program, and to celebrate how far we have come it would be so fun to try some foods we have no background in as well. If your family or anyone you know has a signiture dish that tastes so much better than everyone else's, by all means bring it.</p>
     </div>
 </div>
+
     <!-- Copied from Omnifoods -->
     <section class="section-meals" id="meals">
-        <div>
+        
             <ul class="meals-showcase ">
                 <li>
                     <figure class="meal-photo">
                         <img src="1.jpg">
+                        <div class="mealbtn"><button onclick="feature()">~Info~</button></div>
                     </figure>
                 </li>
                 <li>
                     <figure class="meal-photo">
                         <img src="2.jpg">
+                        <div class="mealbtn"><button onclick="feature()">~Info~</button></div>
                     </figure>
                 </li>
                 <li>
                     <figure class="meal-photo">
                         <img src="3.jpg">
+                        <div class="mealbtn"><button onclick="feature()">~Info~</button></div>
                     </figure>
                 </li>
                 <li>
                     <figure class="meal-photo">
                         <img src="4.jpg">
+                        <div class="mealbtn"><button onclick="feature()">~Info~</button></div>
                     </figure>
                 </li>
             </ul>
-        </div>
+        
     </section>
     <!-- end of copied -->
     
     <div id="Q">
         <h3>Have Questions?</h3>
+        <button id="ask" onclick="feature()"> Email questions here!!</button>
         <p>Feel free to bug Mr.Chowdhury about it as much as you want!</p>
     </div>
 
     <section id="randTXT">
-        <h2 id="randheader">A few easy answers!!</h2>
-<ul id="randlist">
-    <div>
-    <li>
-    <p>Plan to bring enough food to feed many people!</p>
-</li>
-<li>
-<p>[REDACTED] Hungry people plan on coming!</p>
-</li>
-<li>
-    <p>Must bring food/drink to enter!!</p>
-</li>
-</div>
-</ul>
+                <h2 id="randheader">A few easy answers!!</h2>
+        <div id="randbubbles">
+        <ul id="randlist">    
+                <li>
+                    <p><h1>Q?</h1>Are there people with allergies?</p>
+                <p><h1>A.</h1>Probably. If someone has allergies they should ask before consuming food.</p>
+            </li>
+            <li>
+                <p><h1>Q?</h1>How much food should I plan to bring?</p>
+            <p><h1>A.</h1>Plan to bring enough food to feed many people!</p>
+        </li>
+        <li>
+            <p><h1>Q?</h1>How many people plan to attend?</p>
+        <p><h1>A.</h1>[REDACTED] Hungry people plan on coming!</p>
+        </li>
+        <li>
+            <p><h1>Q?</h1>What do I need to bring?</p>
+            <p><h1>A.</h1>Must bring food/drink to enter!!</p>
+        </li>
+        <li>
+            <p><h1>Q?</h1>When is the potluck?</p>
+            <p><h1>A.</h1>The potluck is on [REDACTED]</p>
+        </li>
+        </div>
+        </ul>
     </section>
 </body>
 </html>

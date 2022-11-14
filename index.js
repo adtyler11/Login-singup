@@ -59,3 +59,6 @@ function register() {
 users.push(newUser);
 }
 
+function feature(){
+    alert('please login to use this feature!!')
+}

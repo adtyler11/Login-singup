@@ -6,11 +6,22 @@ src: url("KGBlankSpaceSketch.ttf");
 }
 body{
     background-repeat: no-repeat;
-    background-size: 300%;
+    background-size: 100%;
+    padding-bottom: 10%;
     background-color: bisque; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url('shutterstock_1383065213.jpg')
 }
+#hamburger{
+position: relative;
+border-radius: 75px;
+top: 20px;
+left: 800px;
+width: 50px;
+background-color: orangered;
+color: white;
+}
+
 #mainHeader{
     color: black;
     text-shadow: 8px white;
@@ -45,10 +56,15 @@ body{
 }
 
 .section-meals {
-    padding: 0;
-    position: relative;
-    right: auto;
+    margin: 0, auto;
+    display: flex;
 }
+
+.mealbtn{
+    margin: 20px;
+    padding-left: 120px;
+}
+
 
 .meals-showcase {
    list-style: none;
@@ -63,17 +79,17 @@ body{
 
 .meal-photo {
     width: 100%;
-    margin: 0;
+    margin: auto;
     overflow: hidden;
-    background-color: #000;
 }
 
 .meal-photo img {
     opacity: 0.7;
-    width: 100%;
+    width: 320px;
     height: auto;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
+    background-color: orangered;
 }
 
 .meal-photo img:hover {
@@ -82,9 +98,14 @@ body{
 }
 
 #Q{
+    padding-top: 20px;
  color: orangered;
  text-align: center;
  font-family: cursive;
+}
+
+#ask{
+    border-radius: 100px;
 }
 
 .rand{
@@ -93,9 +114,6 @@ body{
     width: 100px;
 }
 
-#banner{
-
-}
 
 #bannerList{
     list-style: none;
@@ -119,21 +137,28 @@ body{
     text-align: center;
     color: white;
     text-align: center;
-    margin-left: 500px;
+    margin-left: 190px;
 
 }
-
-
 
 #randlist li{
     display: block;
     float: left;
-    width: 100px;
+    width: 145px;
     margin: 50px;
+}
+
+#randbubbles{
+    background-color: black;
+}
+
+#newUserName{
+    margin: 15px;
 }
 
 /* signup form specific css */
 #signup{
+    padding: 10px;
     list-style: none;
     align-items: center;
     width: fit-content;
