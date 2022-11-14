@@ -17,7 +17,7 @@ function login() {
   let password = document.getElementById('password').value;
     // loop through users array to find a match and confirm login
     for(let i = 0; i < users.length; i++) {
-      if(username == users[i].username && password == users[i].password) {
+      if(username === users[i].username && password === users[i].password) {
         console.log('Login successful');
         alert('Login successful');
         // stops here if statement is found to be true
@@ -50,14 +50,14 @@ function register() {
       }
       else{
         // add new user to users array
-        // users.push(newUser);
+        users.push(newUser);
         console.log(users);
         alert('User added');
         login();
       }
     }
 
-users.push(newUser);
+users.push({registerUser, registerPassword});
 }
 
 function feature(){
