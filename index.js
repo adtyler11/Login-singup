@@ -51,6 +51,7 @@ function register() {
       else{
         // add new user to users array
         // users.push(newUser);
+        console.log(users);
         alert('User added');
         login();
       }
